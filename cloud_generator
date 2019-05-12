@@ -2,7 +2,7 @@ import wordcloud,os
 from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
 
-default_file = "abs1.txt"
+default_file = "file_for_cloud.txt"
 FILE = os.path.dirname("default_file")
 
 #gets text from the given file
